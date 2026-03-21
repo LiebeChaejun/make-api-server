@@ -1,0 +1,35 @@
+{
+  "name": "nodebird-api-server",
+  "version": "1.0.0",
+  "description": "nodebird의 api 서버 입니다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiebeChaejun/make-api-server.git"
+  },
+  "author": "liebe-chaejun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiebeChaejun/make-api-server/issues"
+  },
+  "homepage": "https://github.com/LiebeChaejun/make-api-server#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.20.0",
+    "nunjucks": "^3.2.4",
+    "passport": "^0.7.0",
+    "passport-kakao": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.37.8",
+    "uuid": "^13.0.0"
+  }
+}
