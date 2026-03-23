@@ -19,6 +19,7 @@
   "homepage": "https://github.com/LiebeChaejun/make-api-server#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "chokidar": "^3.6.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
